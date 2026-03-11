@@ -1,6 +1,9 @@
 {
   "name": "talkitweb",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=20"
+  },
   "description": "Developed TalkItWeb, a real-time web chat application that enables instant messaging between users through a responsive and intuitive interface. Implemented efficient backend communication and real-time message handling to ensure smooth and scalable user interactions.",
   "main": "index.js",
   "scripts": {
