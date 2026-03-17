@@ -1,26 +1,16 @@
 {
-  "name": "talkitweb",
+  "name": "chatify-app",
   "version": "1.0.0",
-  "engines": {
-    "node": ">=20"
-  },
-  "description": "Developed TalkItWeb, a real-time web chat application that enables instant messaging between users through a responsive and intuitive interface. Implemented efficient backend communication and real-time message handling to ensure smooth and scalable user interactions.",
   "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
-    "postinstall": "npm install --omit=dev --prefix backend",
     "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jitendrakw09/TalkitWeb.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/jitendrakw09/TalkitWeb/issues"
-  },
-  "homepage": "https://github.com/jitendrakw09/TalkitWeb#readme"
+  "description": ""
 }
